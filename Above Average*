@@ -18,10 +18,10 @@ public class AboveAverage {
 				averageSum += scores.get(x);
 			}
 			average = averageSum / students;
-			for(int x = 0; x < scores.size(); x++) {
-				if(scores.get(x) < average) {
-					scores.remove(x);
-				}
+			//for(int y = 0; x < scores.size(); y++) {
+			//	if(scores.get(y) < average) {
+			//		scores.remove(y);
+			//	}
 			}
 			aboveAverage = scores.size() / students * 100;
 			System.out.printf("%.3f", aboveAverage);
