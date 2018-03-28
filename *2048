@@ -1,0 +1,88 @@
+import java.util.*;
+import java.io.*;
+
+public class TwentyFortyEight {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner in = new Scanner(System.in);
+		while(in.hasNextInt()) {
+			int[] row1 = new int[4];
+			int[] row2 = new int[4];
+			int[] row3 = new int[4];
+			int[] row4 = new int[4];
+			boolean row1share = false;
+			boolean row2share = false;
+			boolean row3share = false;
+			boolean row4share = false;
+			boolean row1zeroes = false;
+			boolean row2zeroes = false;
+			boolean row3zeroes = false;
+			boolean row4zeroes = false;
+			for(int i = 0; i < 4; i++) {
+				row1[i] = in.nextInt();
+			}
+			for(int i = 0; i < 4; i++) {
+				row2[i] = in.nextInt();
+			}
+			for(int i = 0; i < 4; i++) {
+				row3[i] = in.nextInt();
+			}
+			for(int i = 0; i < 4; i++) {
+				row4[i] = in.nextInt();
+			}
+			if(in.nextInt() == 0) {
+				if(row1[0] == row1[1] || row1[1] == row1[2] || row1[2] == row1[3] || row1[0] == row1[2] || row1[0] == row1[3] || row1[1] == row1[3]) {
+					row1share = true;
+				}
+				if(row2[0] == row2[1] || row2[1] == row2[2] || row2[2] == row2[3] || row2[0] == row2[2] || row2[0] == row2[3] || row2[1] == row2[3]) {
+					row2share = true;
+				}
+				if(row3[0] == row3[1] || row3[1] == row3[2] || row3[2] == row3[3] || row3[0] == row3[2] || row3[0] == row3[3] || row3[1] == row3[3]) {
+					row3share = true;
+				}
+				if(row4[0] == row4[1] || row4[1] == row4[2] || row4[2] == row4[3] || row4[0] == row4[2] || row4[0] == row4[3] || row4[1] == row4[3]) {
+					row4share = true;
+				}
+				if(row1share == true) {
+					for(int z = 0; z < 4; z++) {
+						if(row1[z] == 0) {
+							row1zeroes = true;
+						}
+					}
+				}
+				if(row2share == true) {
+					for(int z = 0; z < 4; z++) {
+						if(row2[z] == 0) {
+							row2zeroes = true;
+						}
+					}
+				}
+				if(row3share == true) {
+					for(int z = 0; z < 4; z++) {
+						if(row3[z] == 0) {
+							row3zeroes = true;
+						}
+					}
+				}
+				if(row4share == true) {
+					for(int z = 0; z < 4; z++) {
+						if(row4[z] == 0) {
+							row4zeroes = true;
+						}
+					}
+				}
+			}
+			System.out.println(Arrays.toString(row1));
+			System.out.println(Arrays.toString(row2));
+			System.out.println(Arrays.toString(row3));
+			System.out.println(Arrays.toString(row4));
+			System.out.println(row1share);
+			System.out.println(row2share);
+			System.out.println(row3share);
+			System.out.println(row4share);
+		}
+		
+	}
+
+}
