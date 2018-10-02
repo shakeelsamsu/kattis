@@ -1,6 +1,12 @@
+/**
+ * @author: shakeelsamsu
+ * https://github.com/shakeelsamsu
+ * Apr 25 18
+ */
+
 import java.util.*;
 
-public class Keyboard {
+public class touchscreenkeyboard {
 
 static String one = "qwertyuiop";
 static String two = "asdfghjkl";

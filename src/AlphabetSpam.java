@@ -1,7 +1,13 @@
+/**
+ * @author: shakeelsamsu
+ * https://github.com/shakeelsamsu
+ * Jul 12 18
+ */
+
 import java.util.*;
 import java.io.*;
 
-public class AlphabetSpam {
+public class alphabetspam {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

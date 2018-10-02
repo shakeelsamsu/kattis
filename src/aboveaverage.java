@@ -1,6 +1,12 @@
+/**
+ * @author: shakeelsamsu
+ * https://github.com/shakeelsamsu
+ * Jul 12 18
+ */
+
 import java.util.Scanner;
 
-class aboveaverage {
+public class aboveaverage {
   public static void main(String[] args) {
   	Scanner in  = new Scanner(System.in);
     int n = in.nextInt();
