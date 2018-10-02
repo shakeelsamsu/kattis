@@ -1,7 +1,13 @@
+/**
+ * @author: shakeelsamsu
+ * https://github.com/shakeelsamsu
+ * Apr 25 18
+ */
+
 import java.util.*;
 import java.io.*;
 
-public class Aaah {
+public class aaah {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
