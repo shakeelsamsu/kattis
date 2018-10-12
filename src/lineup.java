@@ -19,32 +19,6 @@ public class lineup {
             st = new StringTokenizer(in.readLine());
             nameStarts.add(st.nextToken());
         }
-        /*
-        boolean neither = false;
-        boolean increasing = true;
-        boolean decreasing = true;
-        for(int j = 1; j < n; j++) {
-            int char1 = (int) nameStarts.get(j);
-            int char2 = (int) nameStarts.get(j - 1);
-            if(char2 >= char1 && j == 1) {
-                increasing = false;
-            } 
-            if(char2 <= char1 && j == 1) {
-                decreasing = false;
-            }
-            if(increasing) {
-                if(char2 > char1) neither = true;
-            }
-            if(decreasing) {
-                if(char2 < char1) neither = true;
-            }
-        }
-        if(neither) out.println("NEITHER");
-        else if(increasing) out.println("INCREASING");
-        else if(decreasing) out.println("DECREASING");
-        else out.println("NEITHER");
-        out.close(); 
-        */
         ArrayList<String> sorted = new ArrayList<String>(nameStarts);
         Collections.sort(sorted);
         ArrayList<String> reversed = new ArrayList<String>(sorted);
