@@ -12,14 +12,16 @@ public class statistics {
         Scanner in = new Scanner(System.in);
         int count = 1;
         while(in.hasNextInt()) {
-            ArrayList<Integer> nums = new ArrayList<Integer>();
             int n = in.nextInt();
-            for(int i = 0; i < n; i++) nums.add(in.nextInt());
-            Collections.sort(nums);
-            int max = nums.get(nums.size() - 1);
-            int min = nums.get(0);
-            int range = nums.get(nums.size() - 1) - nums.get(0);
-            System.out.println("Case " + count + ": " + min + " " + max + " " + range);
+            int min = Integer.MAX_VALUE, max = Integer.MIN_VALUE;
+            for(int i = 0; i < n; i++) {
+                int a = in.nextInt();
+                if (a < min)
+                    a = min;
+                if (a > max)
+                    a = max;
+            }
+            System.out.println("Case " + count + ": " + min + " " + max + " " + (max - min));
             count++;
         }
     }
