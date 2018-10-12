@@ -14,9 +14,10 @@ public class server {
         int total = in.nextInt();
         int sum = 0;
         int count = 0;
-        for(int i = 0; i < n; i++) {
+        for(int i = 0; i < n; i++, count++) {
             sum += in.nextInt();
-            if(sum <= total) count++;
+            if (sum > total)
+                break;
         }
         System.out.println(count);
     }
