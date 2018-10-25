@@ -13,7 +13,7 @@ public class babylonian
         String input = in.readLine();
         String num = "";
         int pow = 0;
-        int sum = 0;
+        long sum = 0;
         for(int j = input.length(); j > 0; j--) {
             String temp = input.substring(j - 1, j);
             if(temp.equals(",")) {
