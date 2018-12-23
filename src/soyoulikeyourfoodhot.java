@@ -13,7 +13,6 @@ public class soyoulikeyourfoodhot {
         out.println(total + " " + p1 + " " + p2);
         int count = 0;
         int pitaNum = 0;
-        int pizzaNum = 0;
         boolean none = true;
         while(count <= total) {
             if((total - count) % p2 == 0) {
