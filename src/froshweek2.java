@@ -10,7 +10,7 @@ public class froshweek2 {
         int t = Integer.parseInt(st.nextToken());
         int l = Integer.parseInt(st.nextToken());
         int[] tasks = new int[t];
-        int[] quiets = new int[t];
+        int[] quiets = new int[l];
         st = new StringTokenizer(in.readLine());
         for(int i = 0; i < t; i++) tasks[i] = Integer.parseInt(st.nextToken());
         st = new StringTokenizer(in.readLine());
@@ -18,8 +18,6 @@ public class froshweek2 {
         Arrays.sort(tasks);
         Arrays.sort(quiets);
         int completed = 0;
-        // out.println(tasks);
-        // out.println(quiets);
         int j = 0;
         int i = 0;
         while(i < t && j < l) {
