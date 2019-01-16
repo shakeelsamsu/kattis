@@ -3,8 +3,6 @@ import java.util.*;
 
 public class countingstars {
 
-    private static boolean updated = true;
-
     public static void main(String[] args) throws Exception {
         BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
         PrintWriter out = new PrintWriter(new BufferedWriter(new OutputStreamWriter(System.out)));
@@ -23,18 +21,11 @@ public class countingstars {
                 }
             }
             int stars = 0;
-            updated = true;
-            while(updated) {
-                updated = false;
-                for(int i = 0; i < r; i++) {
-                    for(int j = 0; j < c; j++) {
-                        if(grid[i][j] == '-') {
-                            floodfill(grid, i, j);
-                            if(updated) {
-                                stars++;
-                                updated = false;
-                            }
-                        }
+            for(int i = 0; i < r; i++) {
+                for(int j = 0; j < c; j++) {
+                    if(grid[i][j] == '-') {
+                        floodfill(grid, i, j);
+                        stars++;
                     }
                 }
             }
@@ -50,7 +41,6 @@ public class countingstars {
         if(grid[r][c] == '#')
             return;
         grid[r][c] = '#';
-        updated = true;
         if(inRange(grid, r + 1, c)) floodfill(grid, r + 1, c);
         if(inRange(grid, r - 1, c)) floodfill(grid, r - 1, c);
         if(inRange(grid, r, c + 1)) floodfill(grid, r, c + 1);
