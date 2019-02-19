@@ -21,9 +21,6 @@ public class weakvertices {
                     }
                 }
             }
-            // for(int key : map.keySet()) {
-            //     out.println(key + " " + map.get(key).neighbors);
-            // }
             for(int key : map.keySet()) {
                 if(!BFS(map.get(key)))
                     out.print(key + " ");
@@ -49,7 +46,6 @@ public class weakvertices {
     
     private static boolean BFS(Node start) {
         ArrayList<Node> check = start.neighbors;
-        
         for(Node v : check) {
             if(!Collections.disjoint(check, v.neighbors))
                 return true;
