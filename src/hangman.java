@@ -6,16 +6,16 @@ public class hangman {
         BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
         PrintWriter out = new PrintWriter(new BufferedWriter(new OutputStreamWriter(System.out)));
         int count = 0;
-        ArrayList<Character> word = new ArrayList<Character>();
+        HashSet<Character> word = new HashSet<Character>();
         for(char c : in.readLine().toCharArray())
             word.add(c);
-        String guess = in.readLine();
-        for(char c : guess.toCharArray()) {
-            if(word.contains(c)) 
-                word.removeAll(Collections.singleton(c));
+        char[] guess = in.readLine().toCharArray();
+        for(int i = 0; count < 10 && word.size() > 0 && i < guess.length; i++) {
+            char c = guess[i];
+            if(word.contains(c))
+                word.remove(c);
             else
                 count++;
-            if(word.size() == 0) break;
         }
         out.println(count >= 10 ? "LOSE" : "WIN");
         out.close();
