@@ -46,11 +46,7 @@ public class watchdog {
     }
 
     private static boolean outside(int x, int y, int r, int s) {
-        if(x + r > s) return true;
-        if(x - r < 0) return true;
-        if(y + r > s) return true;
-        if(y - r < 0) return true;
-        return false;
+        return x + r > s && x - r < 0 && y + r > s && y - r < 0;
     }
 
     private static boolean contains(int x, int y, int r, int[] hatch) {
