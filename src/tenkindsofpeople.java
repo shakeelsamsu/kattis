@@ -3,6 +3,8 @@ import java.util.*;
 
 public class tenkindsofpeople {
 
+    private static int[] start;
+    private static int[] end;
     private static int[][] grid;
     private static boolean[][] visited;
     private static int[][] counts;
@@ -40,15 +42,15 @@ public class tenkindsofpeople {
         int n = Integer.parseInt(in.readLine());
         for(int i = 0; i < n; i++) {
             st = new StringTokenizer(in.readLine());
-            Node start = new Node(Integer.parseInt(st.nextToken()) - 1, Integer.parseInt(st.nextToken()) - 1, 0);
-            Node end = new Node(Integer.parseInt(st.nextToken()) - 1, Integer.parseInt(st.nextToken()) - 1, 0);
-            start.x = grid[start.r][start.c];
-            end.x = grid[end.r][end.c];
-            if(grid[start.r][start.c] != grid[end.r][end.c])
+            start = new int[] {(Integer.parseInt(st.nextToken()) - 1), Integer.parseInt(st.nextToken()) - 1, 0};
+            end = new int[] {Integer.parseInt(st.nextToken()) - 1, Integer.parseInt(st.nextToken()) - 1, 0};
+            start[2] = grid[start[0]][start[1]];
+            end[2] = grid[end[0]][end[1]];
+            if(start[2] != end[2])
                 out.println("neither");
             else {
-                if(start.equals(end) || counts[start.r][start.c] == counts[end.r][end.c])
-                    out.println(grid[start.r][start.c] == 0 ? "binary" : "decimal");  
+                if(start.equals(end) || counts[start[0]][start[1]] == counts[end[0]][end[1]])
+                    out.println(grid[start[0]][start[1]] == 0 ? "binary" : "decimal");  
                 else out.println("neither");     
 
             }
@@ -94,25 +96,5 @@ public class tenkindsofpeople {
             res += "\n";    
         }
         return res;
-    }
-}
-
-class Node {
-    int r, c;
-    int x;
-
-    public Node(int r, int c, int x) {
-        this.r = r;
-        this.c = c;
-        this.x = x;
-    }
-    
-    public boolean equals(Object o) {
-        Node n = (Node) o;
-        return n.r == r && n.c == c && n.x == x;
-    }
-    
-    public String toString() {
-        return x + " " + r + " " + c;
     }
 }
