@@ -8,7 +8,6 @@ public class tenkindsofpeople {
     private static int[][] grid;
     private static boolean[][] visited;
     private static int[][] counts;
-    private static int[] refs;
     private static int count;
 
     public static void main(String[] args) throws Exception {
@@ -20,12 +19,10 @@ public class tenkindsofpeople {
 
         grid = new int[r][c];
         counts = new int[r][c];
-        refs = new int[r * c];
         for(int i = 0; i < r; i++) {
             String line = in.readLine();
             for(int j = 0; j < c; j++) {
                 grid[i][j] = Integer.parseInt(line.substring(j, j + 1));
-                refs[i * c + j] = i * c + j;
             }
         }
         visited = new boolean[r][c];
@@ -86,15 +83,5 @@ public class tenkindsofpeople {
 
     private static boolean inRange(int r, int c) {
         return r >= 0 && r < grid.length && c >= 0 && c < grid[0].length;
-    }
-
-    private static String print2darr(int[][] arr) {
-        String res = "";
-        for(int[] barr : arr) {
-            for(int b : barr) 
-                res += String.format("%1d", b);
-            res += "\n";    
-        }
-        return res;
     }
 }
