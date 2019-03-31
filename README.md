@@ -1,7 +1,7 @@
 # Kattis Solutions
 Some solutions may be outdated and could be improved.
 
-| 202 Problems | Languages |
+| 210 Problems | Languages |
 | - | - |
 | [3D Printer](https://open.kattis.com/problems/threedprinter) | [Java](https://github.com/shakeelsamsu/kattis/blob/master/src/threedprinter.java) |
 | [A Different Problem](https://open.kattis.com/problems/different) | [Java](https://github.com/shakeelsamsu/kattis/blob/master/src/different.java) |
@@ -26,6 +26,7 @@ Some solutions may be outdated and could be improved.
 | [Baloni](https://open.kattis.com/problems/baloni) | [Java](https://github.com/shakeelsamsu/kattis/blob/master/src/baloni.java) |
 | [Basic Remains](https://open.kattis.com/problems/basicremains) | [Java](https://github.com/shakeelsamsu/kattis/blob/master/src/basicremains.java) |
 | [Beat the Spread!](https://open.kattis.com/problems/beatspread) | [Java](https://github.com/shakeelsamsu/kattis/blob/master/src/beatspread.java) |
+| [Beehives](https://open.kattis.com/problems/beehives) | [Java](https://github.com/shakeelsamsu/kattis/blob/master/src/beehives.java) |
 | [Bela](https://open.kattis.com/problems/bela) | [Python](https://github.com/shakeelsamsu/kattis/blob/master/src/bela.py) |
 | [Bijele](https://open.kattis.com/problems/bijele) | [Java](https://github.com/shakeelsamsu/kattis/blob/master/src/bijele.java) |
 | [Bits](https://open.kattis.com/problems/bits) | [Java](https://github.com/shakeelsamsu/kattis/blob/master/src/bits.java) |
@@ -54,6 +55,7 @@ Some solutions may be outdated and could be improved.
 | [DRM Messages](https://open.kattis.com/problems/drmmessages) | [Java](https://github.com/shakeelsamsu/kattis/blob/master/src/drmmessages.java) |
 | [Early Winter](https://open.kattis.com/problems/earlywinter) | [Java](https://github.com/shakeelsamsu/kattis/blob/master/src/earlywinter.java) |
 | [Egypt](https://open.kattis.com/problems/egypt) | [Java](https://github.com/shakeelsamsu/kattis/blob/master/src/egypt.java) |
+| [Elevator Trouble](https://open.kattis.com/problems/elevatortrouble) | [Java](https://github.com/shakeelsamsu/kattis/blob/master/src/elevatortrouble.java) |
 | [Encoded Message](https://open.kattis.com/problems/encodedmessage) | [Java](https://github.com/shakeelsamsu/kattis/blob/master/src/encodedmessage.java) |
 | [Erase Securely](https://open.kattis.com/problems/erase) | [Java](https://github.com/shakeelsamsu/kattis/blob/master/src/erase.java) |
 | [Estimating the Area of a Circle](https://open.kattis.com/problems/estimatingtheareaofacircle) | [Java](https://github.com/shakeelsamsu/kattis/blob/master/src/estimatingtheareaofacircle.java) |
@@ -66,12 +68,14 @@ Some solutions may be outdated and could be improved.
 | [FBI Universal Control Numbers](https://open.kattis.com/problems/fbiuniversal) | [Java](https://github.com/shakeelsamsu/kattis/blob/master/src/fbiuniversal.java) |
 | [Filip](https://open.kattis.com/problems/filip) | [Java](https://github.com/shakeelsamsu/kattis/blob/master/src/filip.java) |
 | [Fire](https://open.kattis.com/problems/fire2) | [Java](https://github.com/shakeelsamsu/kattis/blob/master/src/fire2.java) |
+| [Firefly](https://open.kattis.com/problems/firefly) | [Java](https://github.com/shakeelsamsu/kattis/blob/master/src/firefly.java) |
 | [FizzBuzz](https://open.kattis.com/problems/fizzbuzz) | [Java](https://github.com/shakeelsamsu/kattis/blob/master/src/fizzbuzz.java) |
 | [Free Food](https://open.kattis.com/problems/freefood) | [Java](https://github.com/shakeelsamsu/kattis/blob/master/src/freefood.java) |
 | [Frosh Week](https://open.kattis.com/problems/froshweek2) | [Java](https://github.com/shakeelsamsu/kattis/blob/master/src/froshweek2.java) |
 | [Fundamental Neighbors](https://open.kattis.com/problems/fundamentalneighbors) | [Java](https://github.com/shakeelsamsu/kattis/blob/master/src/fundamentalneighbors.java) |
 | [Grandpa Bernie](https://open.kattis.com/problems/grandpabernie) | [Java](https://github.com/shakeelsamsu/kattis/blob/master/src/grandpabernie.java) |
 | [Grid](https://open.kattis.com/problems/grid) | [Java](https://github.com/shakeelsamsu/kattis/blob/master/src/grid.java) |
+| [Growling Gears](https://open.kattis.com/problems/growlinggears) | [Java](https://github.com/shakeelsamsu/kattis/blob/master/src/growlinggears.java) |
 | [Guess the Number](https://open.kattis.com/problems/guess) | [Java](https://github.com/shakeelsamsu/kattis/blob/master/src/guess.java) |
 | [H to O](https://open.kattis.com/problems/htoo) | [Java](https://github.com/shakeelsamsu/kattis/blob/master/src/htoo.java) |
 | [Hangman](https://open.kattis.com/problems/hangman) | [Java](https://github.com/shakeelsamsu/kattis/blob/master/src/hangman.java) |
@@ -83,6 +87,7 @@ Some solutions may be outdated and could be improved.
 | [Hissing Microphone](https://open.kattis.com/problems/hissingmicrophone) | [Java](https://github.com/shakeelsamsu/kattis/blob/master/src/hissingmicrophone.java) |
 | [House of Cards](https://open.kattis.com/problems/houseofcards) | [Java](https://github.com/shakeelsamsu/kattis/blob/master/src/houseofcards.java) |
 | [ICPC Awards](https://open.kattis.com/problems/icpcawards) | [Java](https://github.com/shakeelsamsu/kattis/blob/master/src/icpcawards.java) |
+| [ICPC Team Selection](https://open.kattis.com/problems/icpcteamselection) | [Java](https://github.com/shakeelsamsu/kattis/blob/master/src/icpcteamselection.java) |
 | [Image Decoding](https://open.kattis.com/problems/imagedecoding) | [Java](https://github.com/shakeelsamsu/kattis/blob/master/src/imagedecoding.java) |
 | [Image Processing](https://open.kattis.com/problems/imageprocessing) | [Java](https://github.com/shakeelsamsu/kattis/blob/master/src/imageprocessing.java) |
 | [Integer Lists](https://open.kattis.com/problems/integerlists) | [Java](https://github.com/shakeelsamsu/kattis/blob/master/src/integerlists.java) |
@@ -128,6 +133,7 @@ Some solutions may be outdated and could be improved.
 | [Popular Vote](https://open.kattis.com/problems/vote) | [Java](https://github.com/shakeelsamsu/kattis/blob/master/src/vote.java) |
 | [Pot](https://open.kattis.com/problems/pot) | [Java](https://github.com/shakeelsamsu/kattis/blob/master/src/pot.java) |
 | [Prerequisites?](https://open.kattis.com/problems/prerequisites) | [Java](https://github.com/shakeelsamsu/kattis/blob/master/src/prerequisites.java) |
+| [Primary Arithmetic](https://open.kattis.com/problems/primaryarithmetic) | [Java](https://github.com/shakeelsamsu/kattis/blob/master/src/primaryarithmetic.java) |
 | [Printing Costs](https://open.kattis.com/problems/printingcosts) | [Java](https://github.com/shakeelsamsu/kattis/blob/master/src/printingcosts.java) |
 | [Problem Classification](https://open.kattis.com/problems/problemclassification) | [Java](https://github.com/shakeelsamsu/kattis/blob/master/src/problemclassification.java) |
 | [Provinces and Gold](https://open.kattis.com/problems/provincesandgold) | [Java](https://github.com/shakeelsamsu/kattis/blob/master/src/provincesandgold.java) |
@@ -154,6 +160,7 @@ Some solutions may be outdated and could be improved.
 | [Server](https://open.kattis.com/problems/server) | [Java](https://github.com/shakeelsamsu/kattis/blob/master/src/server.java) |
 | [Seven Wonders](https://open.kattis.com/problems/sevenwonders) | [Java](https://github.com/shakeelsamsu/kattis/blob/master/src/sevenwonders.java) |
 | [Shattered Cake](https://open.kattis.com/problems/shatteredcake) | [Java](https://github.com/shakeelsamsu/kattis/blob/master/src/shatteredcake.java) |
+| [Sheba's Amoebas](https://open.kattis.com/problems/amoebas) | [Java](https://github.com/shakeelsamsu/kattis/blob/master/src/amoebas.java) |
 | [Shiritori](https://open.kattis.com/problems/shiritori) | [Java](https://github.com/shakeelsamsu/kattis/blob/master/src/shiritori.java) |
 | [Shopaholic](https://open.kattis.com/problems/shopaholic) | [Java](https://github.com/shakeelsamsu/kattis/blob/master/src/shopaholic.java) |
 | [Sibice](https://open.kattis.com/problems/sibice) | [Java](https://github.com/shakeelsamsu/kattis/blob/master/src/sibice.java) |
@@ -199,6 +206,7 @@ Some solutions may be outdated and could be improved.
 | [Veci](https://open.kattis.com/problems/veci) | [Java](https://github.com/shakeelsamsu/kattis/blob/master/src/veci.java) |
 | [Volim](https://open.kattis.com/problems/volim) | [Java](https://github.com/shakeelsamsu/kattis/blob/master/src/volim.java) |
 | [Warehouse](https://open.kattis.com/problems/warehouse) | [Java](https://github.com/shakeelsamsu/kattis/blob/master/src/warehouse.java) |
+| [Watchdog](https://open.kattis.com/problems/watchdog) | [Java](https://github.com/shakeelsamsu/kattis/blob/master/src/watchdog.java) |
 | [Weak Vertices](https://open.kattis.com/problems/weakvertices) | [Java](https://github.com/shakeelsamsu/kattis/blob/master/src/weakvertices.java) |
 | [WERTYU](https://open.kattis.com/problems/wertyu) | [Java](https://github.com/shakeelsamsu/kattis/blob/master/src/wertyu.java) |
 | [What does the fox say?](https://open.kattis.com/problems/whatdoesthefoxsay) | [Java](https://github.com/shakeelsamsu/kattis/blob/master/src/whatdoesthefoxsay.java) |
