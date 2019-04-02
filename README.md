@@ -1,8 +1,9 @@
 # Kattis Solutions
 Some solutions may be outdated and could be improved.
 
-| 210 Problems | Languages |
+| 211 Problems | Languages |
 | - | - |
+| [10 Kinds of People](https://open.kattis.com/problems/10kindsofpeople) | [Java](https://github.com/shakeelsamsu/kattis/blob/master/src/tenkindsofpeople.java) |
 | [3D Printer](https://open.kattis.com/problems/threedprinter) | [Java](https://github.com/shakeelsamsu/kattis/blob/master/src/threedprinter.java) |
 | [A Different Problem](https://open.kattis.com/problems/different) | [Java](https://github.com/shakeelsamsu/kattis/blob/master/src/different.java) |
 | [A New Alphabet](https://open.kattis.com/problems/anewalphabet) | [Java](https://github.com/shakeelsamsu/kattis/blob/master/src/anewalphabet.java) |
