@@ -1,9 +1,3 @@
-/**
- * @author: shakeelsamsu
- * https://github.com/shakeelsamsu
- * Oct 4 18 07:32:57 PM
- */
-
 import java.io.*;
 import java.util.*;
 

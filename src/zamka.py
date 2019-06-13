@@ -1,9 +1,3 @@
-"""
-@author: shakeelsamsu
-https://github.com/shakeelsamsu
-Oct 6 18 11:07:56 PM
-"""
-
 l = int(input())
 d = int(input())
 x = int(input())

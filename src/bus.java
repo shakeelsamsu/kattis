@@ -1,9 +1,3 @@
-/**
- * @author: shakeelsamsu
- * https://github.com/shakeelsamsu
- * Sep 11 18 11:35:44
- */
-
 import java.io.*;
 import java.util.*;
 import java.lang.Math.*;

@@ -1,10 +1,4 @@
-/**
- * @author: shakeelsamsu
- * https://github.com/shakeelsamsu
- * Apr 25 18
- */
-
- import java.util.*;
+import java.util.*;
 import java.io.*;
 
 public class areal {

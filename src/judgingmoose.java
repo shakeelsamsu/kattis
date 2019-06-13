@@ -1,9 +1,3 @@
-/**
- * @author: shakeelsamsu
- * https://github.com/shakeelsamsu
- * Oct 26 18 11:57:54 AM
- */
- 
 import java.util.Scanner;
 
 public class judgingmoose {

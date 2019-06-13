@@ -1,9 +1,3 @@
-/**
- * @author: shakeelsamsu
- * https://github.com/shakeelsamsu
- * Oct 24 18 11:24:25 PM
- */
-
 import java.util.Scanner;
 
 public class dicecup {

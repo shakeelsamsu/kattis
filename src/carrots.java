@@ -1,9 +1,3 @@
-/**
- * @author: shakeelsamsu
- * https://github.com/shakeelsamsu
- * Oct 28 18 21:52:17
- */
-
 import java.util.Scanner;
 
 public class carrots {

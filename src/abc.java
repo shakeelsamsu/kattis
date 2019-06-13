@@ -1,9 +1,3 @@
-/**
- * @author: shakeelsamsu
- * https://github.com/shakeelsamsu
- * Apr 25 18
- */
-
 import java.util.*;
 import java.io.*;
 
@@ -11,15 +5,11 @@ public class abc {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Scanner in = new Scanner(System.in);
-		int[] num = new int[3];
-        for (int i = 0; i < 3; i++) {
-            num[i] = in.nextInt();
+        for (int x = 0; x < 100; x++) {
+            Random rand = new Random();
+            double criticRating = rand.nextDouble() * 100;
+            System.out.println(criticRating);
         }
-        Arrays.sort(num);
-        char[] abc = in.next().toCharArray();
-        for (int x = 0; x < 3; x++) {
-            System.out.print(num[abc[x] - 'A'] + " ");
-        }
+        System.out.println(3 * 0.2 + 5.5 * 0.3 + 0.47 * 0.5);
    }
 } 
