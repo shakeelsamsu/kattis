@@ -4,7 +4,6 @@ import java.util.*;
 public class pot {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		Scanner in = new Scanner(System.in);
 		int n = in.nextInt();
 		double product = 0;

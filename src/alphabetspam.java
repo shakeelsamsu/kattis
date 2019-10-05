@@ -4,7 +4,6 @@ import java.io.*;
 public class alphabetspam {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		Scanner in = new Scanner(System.in);
 		String title = in.next();
 		char[] titleChars = title.toCharArray();
