@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class tenkindsofpeople {
+public class 10kindsofpeople {
 
     private static int[] start;
     private static int[] end;

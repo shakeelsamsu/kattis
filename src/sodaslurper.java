@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class sodasurpler {
+public class sodaslurper {
     public static void main(String[] args) throws Exception {
         BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
         PrintWriter out = new PrintWriter(new BufferedWriter(new OutputStreamWriter(System.out)));
