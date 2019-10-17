@@ -3,9 +3,9 @@ import java.util.*;
 import java.net.*;
 
 public class Problem {
-    String title;
-    URL url;
-    String pubDate;
+    private String title;
+    private URL url;
+    private String pubDate;
 
     public Problem(String title, URL url, String pubDate) {
         this.title = title;
@@ -27,7 +27,6 @@ public class Problem {
 
     public String toString() {
         return title + " " + url + " " + pubDate;
-    }    
-
+    }
 
 }
