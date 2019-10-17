@@ -1,4 +1,10 @@
-# Kattis Solutions
+# Kattis
+This is a hub for all of my Kattis solutions and Kattis-related projects.
+
+## KattisRSSParser
+A tool for parsing the Kattis [RSS Feed](https://open.kattis.com/rss/new-problems) for new problems, presenting them in an easy-to-read format.
+
+## Kattis Solutions
 Some solutions may be outdated and could be revised.
 
 | 235 Problems | Languages |
