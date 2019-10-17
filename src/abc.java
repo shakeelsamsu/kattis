@@ -4,7 +4,6 @@ import java.io.*;
 public class abc {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
         for (int x = 0; x < 100; x++) {
             Random rand = new Random();
             double criticRating = rand.nextDouble() * 100;
