@@ -1,7 +1,7 @@
 # KattisRSSParser
 
 Parse your favorite [Problem Archive](https://open.kattis.com)'s recently published problems!   
-The Kattis Problem Archive publishes new problems every so often, updating its [RSS feed](https://open.kattis.com/rss/new-problems). This tool parses the feed and presents it in an easy-to-read format.
+The Kattis Problem Archive publishes new problems every so often, updating its [RSS feed](https://open.kattis.com/rss/new-problems). This tool parses the feed and presents new problems in an easy-to-read format.
 
 ## Usage
 Update the `USER_AGENT` string in `Main.java` as per the Kattis [Terms of Service](https://open.kattis.com/help/tos).   
