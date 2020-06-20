@@ -30,20 +30,6 @@ public class gcpc {
 			if(teams[t-1].compareTo(teams[0]) > 0) above.add(t-1);
 			System.out.println(above.size() + 1);
 		}
-		/*
-		Team a = new Team(3, 4);
-		Team b = new Team(2, 6);
-		Team c = new Team(3, 7);
-
-		ArrayList<Team> test = new ArrayList<Team>();
-		test.add(a);
-		test.add(b);
-		test.add(c);
-		Collections.sort(test);
-		System.out.println(test);
-		System.out.println(a.compareTo(b) > 0);
-		System.out.println(a.compareTo(c) > 0);
-		*/
 	}
 }
 
