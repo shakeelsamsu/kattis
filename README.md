@@ -1,5 +1,5 @@
 # Kattis
-This is a hub for all of my Kattis solutions and Kattis-related projects.
+This is a hub for all of my Kattis solutions and Kattis-related projects. You can find my profile [here](https://open.kattis.com/users/shakeelsamsu)!
 
 ## KattisRSSParser
 A [tool](https://github.com/shakeelsamsu/kattis/tree/master/KattisRSSParser) for parsing the Kattis RSS Feed for new problems, presenting them in an easy-to-read format.
