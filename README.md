@@ -8,7 +8,7 @@ A [tool](https://github.com/shakeelsamsu/kattis/tree/master/KattisRSSParser) for
 
 | 296 Problems | Languages |
 | - | - |
-| [10 Kinds of People](https://open.kattis.com/problems/10kindsofpeople) | [Python](https://github.com/shakeelsamsu/kattis/blob/master/src/tenkindsofpeople.java) |
+| [10 Kinds of People](https://open.kattis.com/problems/10kindsofpeople) | [Java](https://github.com/shakeelsamsu/kattis/blob/master/src/tenkindsofpeople.java) |
 | [2048](https://open.kattis.com/problems/2048) | [Python](https://github.com/shakeelsamsu/kattis/blob/master/src/2048.py) |
 | [3D Printed Statues](https://open.kattis.com/problems/3dprinter) | [Java](https://github.com/shakeelsamsu/kattis/blob/master/src/threedprinter.java) |
 | [A Different Problem](https://open.kattis.com/problems/different) | [Java](https://github.com/shakeelsamsu/kattis/blob/master/src/different.java) |
