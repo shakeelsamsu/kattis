@@ -9,7 +9,7 @@ public class threedprinter {
 		double printers = 1;
 		int days = 1;
 		while(statues > printers) {
-			printers = printers + Math.pow(2, days - 1); //The Amount of Printers increases by a factor of two each day because until you can print all of the statues at the same time, the printers will reproduce.
+			printers = printers + Math.pow(2, days - 1);
 			days++;
 		}
 		System.out.print(days);
