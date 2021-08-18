@@ -240,6 +240,7 @@ A [tool](https://github.com/shakeelsamsu/kattis/tree/master/KattisRSSParser) for
 | [Sheba's Amoebas](https://open.kattis.com/problems/amoebas) | [Java](https://github.com/shakeelsamsu/kattis/blob/master/src/amoebas.java) |
 | [Shiritori](https://open.kattis.com/problems/shiritori) | [Java](https://github.com/shakeelsamsu/kattis/blob/master/src/shiritori.java) |
 | [Shopaholic](https://open.kattis.com/problems/shopaholic) | [Java](https://github.com/shakeelsamsu/kattis/blob/master/src/shopaholic.java) |
+| [Short Sell](https://open.kattis.com/problems/shortsell) | [Python](https://github.com/shakeelsamsu/kattis/blob/master/src/shortsell.py) |
 | [Sibice](https://open.kattis.com/problems/sibice) | [Java](https://github.com/shakeelsamsu/kattis/blob/master/src/sibice.java) |
 | [Simon Says](https://open.kattis.com/problems/simon) | [Java](https://github.com/shakeelsamsu/kattis/blob/master/src/simon.java) |
 | [Simon Says](https://open.kattis.com/problems/simonsays) | [Java](https://github.com/shakeelsamsu/kattis/blob/master/src/simonsays.java) |
