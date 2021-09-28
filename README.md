@@ -122,6 +122,7 @@ A [tool](https://github.com/shakeelsamsu/kattis/tree/master/KattisRSSParser) for
 | [Hanging Out on the Terrace](https://open.kattis.com/problems/hangingout) | [C++](https://github.com/shakeelsamsu/kattis/blob/master/src/hangingout.cpp) |
 | [Hangman](https://open.kattis.com/problems/hangman) | [Java](https://github.com/shakeelsamsu/kattis/blob/master/src/hangman.java) |
 | [Harshad Numbers](https://open.kattis.com/problems/harshadnumbers) | [Java](https://github.com/shakeelsamsu/kattis/blob/master/src/harshadnumbers.java) |
+| [Haunted Graveyard](https://open.kattis.com/problems/hauntedgraveyard) | [Java](https://github.com/shakeelsamsu/kattis/blob/master/src/hauntedgraveyard.java) |
 | [Heart Rate](https://open.kattis.com/problems/heartrate) | [Java](https://github.com/shakeelsamsu/kattis/blob/master/src/heartrate.java) |
 | [Height Ordering](https://open.kattis.com/problems/height) | [Python](https://github.com/shakeelsamsu/kattis/blob/master/src/height.py) |
 | [Heir's Dilemma](https://open.kattis.com/problems/heirsdilemma) | [Java](https://github.com/shakeelsamsu/kattis/blob/master/src/heirsdilemma.java) |
